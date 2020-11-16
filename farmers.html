@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>plants-with offer <em></em></h1>
+
+<h3 id="demo"></h3>
+<h3 id="demo1"></h3>
+
+<script>
+var text = '{"name": "Catnip","quantity": "20","planttype": "Medicinal plant","healthbenefit": "Relieves stomach discomfort"}';
+var prof = '{"name": "Basil","quantity": "15","planttype": "Medicinal plant", "healthbenefit": "Reduces stress,boosts immunity"}';
+var obj = JSON.parse(text, function (key, value) {
+  if (key == "name") {
+    return value.toUpperCase();
+  } else {
+    return value;
+  }
+});
+document.getElementById("demo").innerHTML = obj.name + ", " + obj.quantity + ", " + obj.planttype; 
+
+
+var obj1 = JSON.parse(prof, function (key, value) {
+  if (key == "name") {
+    return value.toUpperCase();
+  } else {
+    return value;
+  }
+});
+document.getElementById("demo1").innerHTML = obj1.name + ", " + obj1.planttype + ", " + obj1.quantity + " ,"+ obj1.healthbenefit; 
+</script>
+
+</body>
+</html>

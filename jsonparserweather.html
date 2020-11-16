@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>current weather info <em></em></h1>
+
+<h3 id="demo"></h3>
+<h3 id="demo1"></h3>
+
+<script>
+var text = '{"place": "thanjavur","cloudtype": "scattered", "temperature": "37 degree celsius" }';
+var prof = '{"place": "madurai","cloudtype": "cool and warm","temperature": "27 degree celsius"
+   }';
+var obj = JSON.parse(text, function (key, value) {
+  if (key == "place") {
+    return value.toUpperCase();
+  } else {
+    return value;
+  }
+});
+document.getElementById("demo").innerHTML = obj.place + ", " + obj.temperature + ", " + obj.cloudtype; 
+
+
+var obj1 = JSON.parse(prof, function (key, value) {
+  if (key == "place") {
+    return value.toUpperCase();
+  } else {
+    return value;
+  }
+});
+document.getElementById("demo1").innerHTML = obj1.place + ", " + obj1.temperature + " (cloudtype)"; 
+</script>
+
+</body>
+</html>

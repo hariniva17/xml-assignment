@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<farmers>
+ <crops>
+   <name>Basil</name>
+   <quantity>15</quantity>
+   <planttype>Medicinal plant</planttype>
+<healthbenefit>Reduces stress,boosts immunity</healthbenefit>
+ </crops>
+<crops>
+   <name>Catnip</name>
+   <quantity>20</quantity>
+   <planttype>Medicinal plant</planttype>
+<healthbenefit>Relieves stomach discomfort</healthbenefit>
+ </crops>
+<crops>
+   <name>Chamomile</name>
+   <quantity>35</quantity>
+   <planttype>Medicinal plant</planttype>
+   <healthbenefit>improve overall skin health</healthbenefit>
+
+ </crops>
+  
+<crops>
+   <name>millet</name>
+   <quantity>10</quantity>
+   <planttype>grains</planttype>
+   <healthbenefit>weight loss</healthbenefit>
+
+ </crops>
+ 
+ 
+</farmers>

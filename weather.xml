@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<weather>  
+<location>  
+  <place>thanjavur</place>  
+  <cloudtype>scattered</cloudtype>  
+ <temperature>37 degree celsius</temperature> 
+
+</location> 
+<location>  
+  <place>madurai</place>  
+  <cloudtype>cool and warm</cloudtype>  
+ <temperature>27 degree celsius</temperature> 
+
+</location> 
+<location>  
+  <place>thanjavur</place>  
+  <cloudtype>scattered</cloudtype>  
+ <temperature>28 degree celsius</temperature> 
+
+</location> 
+<location>  
+  <place>Delhi</place>  
+  <cloudtype>cloudy</cloudtype>  
+ <temperature>30 degree celsius</temperature> 
+
+</location> 
+
+</weather>

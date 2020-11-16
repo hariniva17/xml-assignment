@@ -1,0 +1,23 @@
+[
+   {
+      "place": "thanjavur",
+      "cloudtype": "scattered",
+      "temperature": "37 degree celsius"
+   },
+   {
+      "place": "madurai",
+      "cloudtype": "cool and warm",
+      "temperature": "27 degree celsius"
+   },
+   {
+      "place": "thanjavur",
+      "cloudtype": "scattered",
+      "temperature": "28 degree celsius"
+   },
+   {
+      "place": "Delhi",
+      "cloudtype": "cloudy",
+      "temperature": "30 degree celsius"
+   }
+]
+COPY TO CLIPBOARD SELECT 

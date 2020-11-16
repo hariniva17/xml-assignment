@@ -1,0 +1,21 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT weather (location)+>
+<!ATTLIST weather
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT location (place,cloudtype,temperature)>
+<!ATTLIST location
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT place (#PCDATA)>
+<!ATTLIST place
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cloudtype (#PCDATA)>
+<!ATTLIST cloudtype
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT temperature (#PCDATA)>
+<!ATTLIST temperature
+  xmlns CDATA #FIXED ''>

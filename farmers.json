@@ -1,0 +1,30 @@
+NVERT XML TO JSON CONVERT XML TO JSON IN NEW WINDOW
+
+ 
+Formatted JSON:
+[
+   {
+      "name": "Basil",
+      "quantity": "15",
+      "planttype": "Medicinal plant",
+      "healthbenefit": "Reduces stress,boosts immunity"
+   },
+   {
+      "name": "Catnip",
+      "quantity": "20",
+      "planttype": "Medicinal plant",
+      "healthbenefit": "Relieves stomach discomfort"
+   },
+   {
+      "name": "Chamomile",
+      "quantity": "35",
+      "planttype": "Medicinal plant",
+      "healthbenefit": "improve overall skin health"
+   },
+   {
+      "name": "millet",
+      "quantity": "10",
+      "planttype": "grains",
+      "healthbenefit": "weight loss"
+   }
+]

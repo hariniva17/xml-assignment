@@ -1,0 +1,25 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT farmers (crops)+>
+<!ATTLIST farmers
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT crops (name,quantity,planttype,healthbenefit)>
+<!ATTLIST crops
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT quantity (#PCDATA)>
+<!ATTLIST quantity
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT planttype (#PCDATA)>
+<!ATTLIST planttype
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT healthbenefit (#PCDATA)>
+<!ATTLIST healthbenefit
+  xmlns CDATA #FIXED ''>
